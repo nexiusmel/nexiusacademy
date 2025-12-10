@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, User } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { Course } from '../types';
 
 const MOCK_COURSES: Course[] = [
