@@ -1,0 +1,38 @@
+import React from 'react';
+import { Play } from 'lucide-react';
+
+const InstructorCTA: React.FC = () => {
+  return (
+    <section className="relative py-28 bg-primary overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0 opacity-20">
+        <img 
+          src="https://picsum.photos/1920/600?grayscale" 
+          alt="Office Background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-transparent z-10"></div>
+
+      <div className="container mx-auto px-6 relative z-20 flex flex-col md:flex-row items-center justify-between">
+        <div className="max-w-xl text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Become An Instructor</h2>
+          <p className="text-gray-300 mb-8 leading-relaxed">
+            Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.
+          </p>
+          <button className="bg-secondary text-white px-8 py-3 rounded-md font-bold shadow-lg hover:bg-white hover:text-secondary transition-colors">
+            Start Teaching Today
+          </button>
+        </div>
+        
+        <div className="mt-10 md:mt-0">
+            <button className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center text-white shadow-xl hover:scale-110 transition-transform animate-pulse">
+                <Play fill="currentColor" className="ml-1" size={32} />
+            </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default InstructorCTA;
