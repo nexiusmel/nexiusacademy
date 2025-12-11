@@ -29,7 +29,7 @@ const About: React.FC = () => {
         {/* Right Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-            Building Your First Agentic AI System for Instant Business Automation
+            Learn How to Build Your First Agentic AI System for Instant Business Automation
           </h2>
           <p className="text-gray-600 mb-8 leading-relaxed">
             You will learn how to design, configure, and launch autonomous agent workflows using no-code platforms. We will focus on practical deployment, applying these intelligent systems to automate critical functions in sales, finance, and operations.

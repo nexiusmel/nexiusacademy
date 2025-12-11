@@ -18,7 +18,7 @@ const CourseList: React.FC = () => {
   const tabs = ['Python', 'Javascript', 'Art & Design', 'Web Development', 'Business'];
 
   return (
-    <section className="py-24 bg-white">
+    <section id="courses" className="py-24 bg-white scroll-mt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-primary mb-6">Best Selling Courses</h2>

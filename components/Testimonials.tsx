@@ -3,7 +3,7 @@ import { Quote } from 'lucide-react';
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-24 bg-neutral">
+    <section id="reviews" className="py-24 bg-neutral scroll-mt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-primary">We Have 30k+ Students & They<br/>Share Success Stories</h2>

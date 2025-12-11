@@ -14,7 +14,7 @@ const categories = [
 
 const Categories: React.FC = () => {
   return (
-    <section className="py-20 bg-neutral">
+    <section id="skills" className="py-20 bg-neutral scroll-mt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-primary">Skills You Will Learn</h2>

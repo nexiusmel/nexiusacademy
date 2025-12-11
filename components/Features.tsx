@@ -3,7 +3,7 @@ import { BookOpen, Award, Users } from 'lucide-react';
 
 const Features: React.FC = () => {
   return (
-    <section className="bg-primary py-16">
+    <section id="overview" className="bg-primary py-16 scroll-mt-32">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
           

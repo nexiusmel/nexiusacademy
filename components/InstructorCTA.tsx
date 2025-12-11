@@ -3,7 +3,7 @@ import { Play } from 'lucide-react';
 
 const InstructorCTA: React.FC = () => {
   return (
-    <section className="relative py-28 bg-primary overflow-hidden">
+    <section id="join" className="relative py-28 bg-primary overflow-hidden scroll-mt-32">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 opacity-20">
         <img 

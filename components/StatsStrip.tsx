@@ -13,8 +13,8 @@ const StatsStrip: React.FC = () => {
               <Laptop className="text-white" size={24} />
             </div>
             <div>
-              <h3 className="font-bold text-primary text-lg leading-tight">Online / In-Person</h3>
-              <p className="text-gray-500 text-sm mt-1">Intakes Available</p>
+              <h3 className="font-bold text-primary text-lg leading-tight">Business Leaders</h3>
+              <p className="text-gray-500 text-sm mt-1">Outcome-focused, governance, impact</p>
             </div>
           </div>
 
@@ -24,8 +24,8 @@ const StatsStrip: React.FC = () => {
               <BookOpen className="text-white" size={24} />
             </div>
             <div>
-              <h3 className="font-bold text-primary text-lg leading-tight">21 Hours Total</h3>
-              <p className="text-gray-500 text-sm mt-1">7 Lessons + 1 Assessment</p>
+              <h3 className="font-bold text-primary text-lg leading-tight">Startup Founders</h3>
+              <p className="text-gray-500 text-sm mt-1">Strategy, scale, network-driven</p>
             </div>
           </div>
 
@@ -35,8 +35,8 @@ const StatsStrip: React.FC = () => {
               <Calendar className="text-white" size={24} />
             </div>
             <div>
-              <h3 className="font-bold text-primary text-lg leading-tight">Flexible Schedule</h3>
-              <p className="text-gray-500 text-sm mt-1">Weekdays or Weekends</p>
+              <h3 className="font-bold text-primary text-lg leading-tight">Working Professionals</h3>
+              <p className="text-gray-500 text-sm mt-1">Structured, job-specific application</p>
             </div>
           </div>
 
@@ -46,8 +46,8 @@ const StatsStrip: React.FC = () => {
               <ShieldCheck className="text-white" size={24} />
             </div>
             <div>
-              <h3 className="font-bold text-primary text-lg leading-tight">Beginner Friendly</h3>
-              <p className="text-gray-500 text-sm mt-1">No prior background</p>
+              <h3 className="font-bold text-primary text-lg leading-tight">Entrepreneurs</h3>
+              <p className="text-gray-500 text-sm mt-1">Build, test, iterate quickly</p>
             </div>
           </div>
 

@@ -9,6 +9,7 @@ import InstructorCTA from './components/InstructorCTA';
 import Testimonials from './components/Testimonials';
 import BottomSection from './components/BottomSection';
 import Footer from './components/Footer';
+import CourseNavigation from './components/CourseNavigation';
 
 function App() {
   return (
@@ -17,11 +18,12 @@ function App() {
       <main className="flex-grow">
         <Hero />
         <Features />
+        <CourseNavigation />
         <About />
         <Categories />
         
         {/* Who is this Course For Section */}
-        <section className="bg-white py-12 md:py-16 text-center">
+        <section id="audience" className="bg-white py-12 md:py-16 text-center scroll-mt-32">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Who is this Course For?</h2>
             {/* Decorative Divider */}
@@ -33,8 +35,8 @@ function App() {
         </section>
 
         <StatsStrip />
-        <CourseList />
         <InstructorCTA />
+        <CourseList />
         <Testimonials />
         <BottomSection />
       </main>
