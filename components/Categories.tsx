@@ -17,8 +17,8 @@ const Categories: React.FC = () => {
     <section className="py-20 bg-neutral">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-primary">Our Feature Courses</h2>
-          <p className="text-gray-500 mt-2">Explore the most popular categories</p>
+          <h2 className="text-3xl font-bold text-primary">Skills You Will Learn</h2>
+          <p className="text-gray-500 mt-2">Upgrade Yuorself with these Future-ready Skills</p>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

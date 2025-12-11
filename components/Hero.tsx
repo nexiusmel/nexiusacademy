@@ -11,27 +11,64 @@ const Hero: React.FC = () => {
         {/* Left Content */}
         <div className="space-y-6 z-10">
           <div className="inline-block px-3 py-1 bg-white rounded-full shadow-sm text-xs font-bold text-secondary tracking-wide uppercase mb-2">
-            🚀 Unlock Your Potential
+            🚀 Build Your AI Advantage
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
-            Develop Your Skills <br />
-            With Online Courses <br />
-            <span className="text-secondary">From A Pro</span>
+            Agentic AI Foundations <br />
+            for Business Automations: <br />
+            <span className="text-secondary">for Non-Technical Pros</span>
           </h1>
           <p className="text-charcoal text-lg md:text-xl max-w-lg leading-relaxed">
-            Our mission is to help people find the best course online and learn with expert guidance, anywhere, anytime.
+            Learn Agentic AI hands-on to automate entire business workflows, boost productivity, and simplify operations, specifically designed for non-technical professionals.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="bg-secondary text-white px-8 py-4 rounded-lg font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              Explore All Courses
-            </button>
-            <button className="flex items-center gap-3 px-8 py-4 rounded-lg font-bold text-primary hover:bg-white transition-all">
-              <div className="w-10 h-10 bg-white shadow-md rounded-full flex items-center justify-center text-secondary">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
+            
+            {/* Subsidy Badge (SVG Implementation for scaling) */}
+            <div className="select-none transform transition-transform hover:scale-105 duration-300 origin-left cursor-pointer">
+              <svg 
+                viewBox="0 0 350 160" 
+                className="w-40 md:w-48 h-auto drop-shadow-md" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Up to 70% Course Subsidy + SkillsFuture Balance Fees Claimable"
+              >
+                {/* Circle 1: Subsidy */}
+                <circle cx="80" cy="80" r="78" fill="#EAF4FF" stroke="#8EB6F7" strokeWidth="3" />
+                <text x="80" y="52" textAnchor="middle" fill="#1D2A4D" fontSize="14" fontWeight="bold" fontFamily="sans-serif">Up to</text>
+                <text x="80" y="102" textAnchor="middle" fill="#1D2A4D" fontSize="60" fontWeight="800" fontFamily="sans-serif">70%</text>
+                <text x="80" y="126" textAnchor="middle" fill="#1D2A4D" fontSize="13" fontWeight="bold" fontFamily="sans-serif">Course Subsidy</text>
+
+                {/* Plus Sign */}
+                <text x="175" y="95" textAnchor="middle" fill="#1D2A4D" fontSize="40" fontWeight="bold" fontFamily="sans-serif">+</text>
+
+                {/* Circle 2: SkillsFuture */}
+                <circle cx="270" cy="80" r="78" fill="#FFFFFF" stroke="#C8DBF9" strokeWidth="3" />
+                <text x="270" y="55" textAnchor="middle" fill="#1D2A4D" fontSize="11" fontWeight="bold" fontFamily="sans-serif" letterSpacing="0.2">Balance Fees Claimable</text>
+                
+                {/* Logo Graphic */}
+                <g transform="translate(225, 75)">
+                   {/* Logo Squares */}
+                   <rect x="0" y="0" width="8" height="8" rx="2" fill="#D71E28" />
+                   <rect x="0" y="9" width="8" height="8" rx="2" fill="#4F2D7F" />
+                   <rect x="9" y="9" width="8" height="8" rx="2" fill="#4F2D7F" />
+                   
+                   {/* Logo Text */}
+                   <text x="20" y="15" fill="#4F2D7F" fontSize="19" fontWeight="bold" fontFamily="sans-serif">skills</text>
+                   <text x="65" y="15" fill="#4F2D7F" fontSize="19" fontFamily="serif" fontStyle="italic">future</text>
+                </g>
+              </svg>
+            </div>
+
+            {/* Watch Video Button */}
+            <button className="flex items-center gap-3 px-6 py-3 rounded-lg font-bold text-primary hover:bg-white transition-all group border border-transparent hover:border-gray-100 hover:shadow-sm">
+              <div className="w-10 h-10 bg-white shadow-md rounded-full flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
                 <PlayCircle size={24} fill="currentColor" className="text-secondary bg-white rounded-full" />
               </div>
-              Watch Video
+              <span className="text-base md:text-lg">Watch Video</span>
             </button>
+
           </div>
         </div>
 

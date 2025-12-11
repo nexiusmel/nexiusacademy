@@ -1,33 +1,54 @@
 import React from 'react';
+import { Laptop, BookOpen, Calendar, ShieldCheck } from 'lucide-react';
 
 const StatsStrip: React.FC = () => {
   return (
-    <section className="bg-secondary py-16">
+    <section className="bg-white py-12 border-y border-gray-100">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           
-          <div className="space-y-2">
-            <h3 className="text-4xl font-extrabold">6,206</h3>
-            <p className="text-sm font-medium uppercase tracking-wider opacity-90">Success Stories</p>
+          {/* Item 1 */}
+          <div className="flex items-center gap-4 lg:justify-center px-4 lg:border-r border-gray-200">
+            <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center shrink-0 shadow-sm transition-transform hover:scale-110">
+              <Laptop className="text-white" size={24} />
+            </div>
+            <div>
+              <h3 className="font-bold text-primary text-lg leading-tight">Online / In-Person</h3>
+              <p className="text-gray-500 text-sm mt-1">Intakes Available</p>
+            </div>
           </div>
-          
-          <div className="space-y-2">
-            <h3 className="text-4xl font-extrabold">8,100</h3>
-            <p className="text-sm font-medium uppercase tracking-wider opacity-90">Happy Students</p>
+
+          {/* Item 2 */}
+          <div className="flex items-center gap-4 lg:justify-center px-4 lg:border-r border-gray-200">
+            <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center shrink-0 shadow-sm transition-transform hover:scale-110">
+              <BookOpen className="text-white" size={24} />
+            </div>
+            <div>
+              <h3 className="font-bold text-primary text-lg leading-tight">21 Hours Total</h3>
+              <p className="text-gray-500 text-sm mt-1">7 Lessons + 1 Assessment</p>
+            </div>
           </div>
-          
-          <div className="space-y-2">
-            <h3 className="text-4xl font-extrabold">6,300</h3>
-            <p className="text-sm font-medium uppercase tracking-wider opacity-90">Expert Instructors</p>
+
+          {/* Item 3 */}
+          <div className="flex items-center gap-4 lg:justify-center px-4 lg:border-r border-gray-200">
+            <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center shrink-0 shadow-sm transition-transform hover:scale-110">
+              <Calendar className="text-white" size={24} />
+            </div>
+            <div>
+              <h3 className="font-bold text-primary text-lg leading-tight">Flexible Schedule</h3>
+              <p className="text-gray-500 text-sm mt-1">Weekdays or Weekends</p>
+            </div>
           </div>
-          
-          <div className="space-y-2 relative">
-             {/* Decorative line */}
-            <svg className="absolute -right-10 top-0 h-16 w-16 text-yellow-300 opacity-50 hidden md:block" viewBox="0 0 100 100" fill="none" stroke="currentColor">
-                 <path d="M10,90 Q50,10 90,90" strokeWidth="2" />
-            </svg>
-            <h3 className="text-4xl font-extrabold">5,656</h3>
-            <p className="text-sm font-medium uppercase tracking-wider opacity-90">Total Courses</p>
+
+          {/* Item 4 */}
+          <div className="flex items-center gap-4 lg:justify-center px-4">
+            <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center shrink-0 shadow-sm transition-transform hover:scale-110">
+              <ShieldCheck className="text-white" size={24} />
+            </div>
+            <div>
+              <h3 className="font-bold text-primary text-lg leading-tight">Beginner Friendly</h3>
+              <p className="text-gray-500 text-sm mt-1">No prior background</p>
+            </div>
           </div>
 
         </div>

@@ -29,30 +29,35 @@ const About: React.FC = () => {
         {/* Right Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-            Thousands Of Courses Authored By Industry Experts
+            Building Your First Agentic AI System for Instant Business Automation
           </h2>
           <p className="text-gray-600 mb-8 leading-relaxed">
-            You can start and finish one of these popular courses in under a day – for free! Check out the list below. Take the course for free and start your journey.
+            You will learn how to design, configure, and launch autonomous agent workflows using no-code platforms. We will focus on practical deployment, applying these intelligent systems to automate critical functions in sales, finance, and operations.
           </p>
 
           <ul className="space-y-4 mb-10">
             <li className="flex items-center gap-3 text-charcoal font-medium">
               <CheckCircle size={20} className="text-secondary" />
-              Get unlimited access to 4,000+ of our top courses
+              Learn to map, build, and deploy agents to automate full business processes
             </li>
             <li className="flex items-center gap-3 text-charcoal font-medium">
               <CheckCircle size={20} className="text-secondary" />
-              Explore a variety of fresh topics
+              Configure and manage agent systems using accessible platforms without writing code
             </li>
             <li className="flex items-center gap-3 text-charcoal font-medium">
               <CheckCircle size={20} className="text-secondary" />
-              Find the right instructor for you
+              Apply Agentic AI to real-world tasks in finance, HR, and customer service
             </li>
           </ul>
 
-          <button className="bg-secondary text-white px-8 py-3 rounded-md font-bold shadow-lg hover:bg-opacity-90 transition-all">
-            Get Started Today
-          </button>
+          <a 
+            href="https://www.myskillsfuture.gov.sg/content/portal/en/training-exchange/course-directory/course-detail.html?courseReferenceNumber=TGS-2025059915"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-secondary text-white px-8 py-3 rounded-md font-bold shadow-lg hover:bg-opacity-90 transition-all"
+          >
+            Register Now
+          </a>
         </div>
 
       </div>

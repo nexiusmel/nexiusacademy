@@ -19,6 +19,19 @@ function App() {
         <Features />
         <About />
         <Categories />
+        
+        {/* Who is this Course For Section */}
+        <section className="bg-white py-12 md:py-16 text-center">
+          <div className="container mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Who is this Course For?</h2>
+            {/* Decorative Divider */}
+            <div className="w-20 h-1.5 bg-secondary mx-auto rounded-full mb-8"></div>
+            <p className="text-gray-500 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed">
+              Designed for non-technical professionals, managers, and business leaders ready to harness the power of Agentic AI to automate workflows and drive efficiency.
+            </p>
+          </div>
+        </section>
+
         <StatsStrip />
         <CourseList />
         <InstructorCTA />

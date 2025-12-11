@@ -16,9 +16,9 @@ const InstructorCTA: React.FC = () => {
 
       <div className="container mx-auto px-6 relative z-20 flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-xl text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Become An Instructor</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Upskill Yourself?</h2>
           <p className="text-gray-300 mb-8 leading-relaxed">
-            Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.
+            Master Agentic AI to eliminate manual work, automate your entire business processes, and achieve instant, measurable productivity gains.
           </p>
           <button className="bg-secondary text-white px-8 py-3 rounded-md font-bold shadow-lg hover:bg-white hover:text-secondary transition-colors">
             Start Teaching Today

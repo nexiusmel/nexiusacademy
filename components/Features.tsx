@@ -12,8 +12,8 @@ const Features: React.FC = () => {
               <BookOpen size={32} />
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2">Learn new skills</h3>
-              <p className="text-gray-300 text-sm">With flexible courses aimed at beginners and experts alike.</p>
+              <h3 className="text-xl font-bold mb-2">Future-Proof Skills</h3>
+              <p className="text-gray-300 text-sm">Acquire the essential skills needed to thrive in an AI-driven economy.</p>
             </div>
           </div>
 
@@ -22,8 +22,8 @@ const Features: React.FC = () => {
               <Award size={32} />
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2">Expert Teacher</h3>
-              <p className="text-gray-300 text-sm">Upskill with specialists who have real-world experience.</p>
+              <h3 className="text-xl font-bold mb-2">Increase Efficiency</h3>
+              <p className="text-gray-300 text-sm">Leverage autonomous agents to eliminate manual tasks and accelerate outcomes.</p>
             </div>
           </div>
 
@@ -32,8 +32,8 @@ const Features: React.FC = () => {
               <Users size={32} />
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2">Online Degrees</h3>
-              <p className="text-gray-300 text-sm">Study flexibly online and earn recognized certifications.</p>
+              <h3 className="text-xl font-bold mb-2">Business Scalability</h3>
+              <p className="text-gray-300 text-sm">Build adaptive, automated systems to support rapid business growth.</p>
             </div>
           </div>
 
